@@ -15,9 +15,15 @@ function Transactions() {
           <div>
             <button className={methodStyle}>
               <div className="flex">
-                <div>
-                  0xf02f1febc87c90676766fa90009b81fade30b6fbced567b0017ba81735a70557
-                </div>
+                <a
+                  href="https://etherscan.io/tx/0xf02f1febc87c90676766fa90009b81fade30b6fbced567b0017ba81735a70557"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div>
+                    0xf02f1febc87c90676766fa90009b81fade30b6fbced567b0017ba81735a70557
+                  </div>
+                </a>
                 <div className={valueStyleGreen}>+10</div>
               </div>
             </button>
@@ -25,9 +31,15 @@ function Transactions() {
           <div>
             <button className={methodStyle}>
               <div className="flex">
-                <div>
-                  0xf02f1febc87c90676766fa90009b81fade30b6fbced567b0017ba812ve3d623h
-                </div>
+                <a
+                  href="https://etherscan.io/tx/0xf02f1febc87c90676766fa90009b81fade30b6fbced567b0017ba81735a70557"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div>
+                    0xf02f1febc87c90676766fa90009b81fade30b6fbced567b0017ba812ve3d623h
+                  </div>
+                </a>
                 <div className={valueStyleGreen}>+20</div>
               </div>
             </button>
@@ -35,9 +47,15 @@ function Transactions() {
           <div>
             <button className={methodStyle}>
               <div className="flex">
-                <div>
-                  0xf02f1febc87c90676766fa90009b81fade30b6fbced567b0017ba812ve3d6665
-                </div>
+                <a
+                  href="https://etherscan.io/tx/0xf02f1febc87c90676766fa90009b81fade30b6fbced567b0017ba81735a70557"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div>
+                    0xf02f1febc87c90676766fa90009b81fade30b6fbced567b0017ba812ve3d6665
+                  </div>
+                </a>
                 <div className={valueStyleRed}>-10</div>
               </div>
             </button>

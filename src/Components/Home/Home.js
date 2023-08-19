@@ -13,8 +13,8 @@ function Home() {
             <div className="font-bold text-lg">SuperToken Balance : 100</div>
             <div className="text-sm">Valid until: 22-12-2002</div>
           </div>
-          <div className="flex font-bold text-[#FFD700] ml-auto items-center">
-            <div className="bg-black p-2 ">Gold Member</div>
+          <div className="flex font-bold text-[#F7E200] ml-auto items-center">
+            <div className="bg-[#2874f0] p-2 ">Gold Member</div>
           </div>
         </div>
 
@@ -34,15 +34,15 @@ function Home() {
           <div className="pt-2 flex justify-around ">
             <div className={ruleStyle}>
               <div className={numberStyle}>1</div>
-              <div>Shop at Flipkart</div>
+              <div>Visit the earn section</div>
             </div>
             <div className={ruleStyle}>
               <div className={numberStyle}>2 </div>
-              <div>Upload the bill</div>
+              <div>Choose the tasks you like</div>
             </div>
             <div className={ruleStyle}>
               <div className={numberStyle}>3 </div>
-              <div>Get 10% cashback</div>
+              <div>Get rewarded with SuperTokens for finishing your tasks</div>
             </div>
           </div>
         </div>

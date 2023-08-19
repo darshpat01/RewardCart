@@ -8,7 +8,7 @@ const ruleStyleDisable =
 function RedeemItem({ img, name, cost }) {
   return (
     <>
-      {cost == 50 && (
+      {cost === "50" && (
         <div className={ruleStyleEnable}>
           <div className="flex justify-center">
             <img src={img} alt="#"></img>

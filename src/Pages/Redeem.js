@@ -1,11 +1,6 @@
 import React from "react";
 import RedeemItem from "./RedeemItem";
 
-const ruleStyle =
-  "bg-gray-100 rounded-lg h-40 w-40 p-4 m-4 hover:bg-gray-300  font-semibold transition duration-500 ease-in-out transform  hover:scale-110 hover:cursor-pointer";
-const numberStyle =
-  "font-bold text-blue-500 rounded-full border-2 border-blue-500 h-6 w-6 flex items-center justify-center mb-2";
-
 function Redeem() {
   return (
     <>
