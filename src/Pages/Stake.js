@@ -5,10 +5,12 @@ import { useState } from "react";
 
 function Stake() {
   const [stake, setStake] = useState(0);
+  const [days, setDays] = useState(0);
 
   const submitHandler = (e) => {
     e.preventDefault();
     const stakeValue = e.target.stakeValue.value;
+    setDays(100);
     setStake(parseInt(stakeValue));
   };
 
@@ -77,7 +79,7 @@ function Stake() {
               <div className="basis-1/2 rounded-xl border-2 border-black h-20 m-2">
                 <div className="text-center pt-2">Ends In:</div>
                 <div className="text-center text-green-500 font-bold text-lg">
-                  100 Days
+                  {days} Days
                 </div>
               </div>
               <div className="basis-1/2 rounded-xl border-2 border-black h-20 m-2 flex justify-center items-center bg-black text-white">
