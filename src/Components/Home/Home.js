@@ -4,8 +4,8 @@ import { useContext } from "react";
 import Chart from "../Chart";
 import { Progress } from "@chakra-ui/react";
 
-const ruleStyle = "bg-gray-300 rounded-lg h-40 w-40 p-4";
-const ruleStyle2 = "bg-gray-300 rounded-lg h-40 w-40 p-4 text-center";
+const ruleStyle = "bg-gray-100 rounded-lg h-40 w-40 p-4";
+const ruleStyle2 = "bg-gray-100 rounded-lg h-40 w-40 p-4 text-center";
 const numberStyle =
   "font-bold text-blue-500 rounded-full border-2 border-blue-500 h-6 w-6 flex items-center justify-center mb-2";
 
@@ -28,11 +28,12 @@ function Home() {
 
           {/* add flipkart poster image */}
           <div className="pt-4">
-            <img
-              src="https://media.licdn.com/dms/image/C4E12AQEjbEhv87LRFA/article-cover_image-shrink_600_2000/0/1584717446532?e=2147483647&v=beta&t=J-ex0xUOz6MYwInj_mpH9nG_FbEhJpZRkMBQeHlqm5E"
-              alt="flipkart poster"
-              className="h-64 w-50% object-cover"
-            />
+            <div className="h-64 w-50% bg-blue-500 text-[5em] flex font-montserrat text-white items-center justify-center">
+              <div>Rewardify.</div>
+            </div>
+            <div className="text-blue-500 font-montserrat font-bold text-2xl text-center pt-1">
+              Where Loyalty Meets Innovation!
+            </div>
           </div>
           {/* rules */}
           <div className="pt-4">
@@ -63,6 +64,14 @@ function Home() {
     return (
       <>
         <div className="bg-white shadow-lg p-4 min-w-[55em]">
+          <div className="p-4">
+            <div className="h-64 w-50% bg-blue-500 text-[5em] flex font-montserrat text-white items-center justify-center">
+              <div>Rewardify.</div>
+            </div>
+            <div className="text-blue-500 font-montserrat font-bold text-2xl text-center pt-1">
+              Where Loyalty Meets Innovation!
+            </div>
+          </div>
           <div className="flex">
             <div>
               <div className="font-bold text-lg pb-2">
@@ -70,8 +79,9 @@ function Home() {
               </div>
             </div>
           </div>
+
           {/* threshold */}
-          <div className="bg-gray-300 p-2 rounded">
+          <div className="bg-gray-100 p-2 rounded">
             <div className="font-bold text-lg pt-2">Threshold (64%)</div>
             <Progress hasStripe value={64} />
             <div className="flex items-center">

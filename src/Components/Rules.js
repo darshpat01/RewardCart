@@ -5,14 +5,12 @@ function Rules() {
     <>
       <div className="bg-white shadow-lg p-4 w-[55em]">
         <div>
-          <p className="font-bold text-lg text-center mb-4">
-            Blockchain-based Loyalty and Rewards Program Rules
-          </p>
+          <p className="font-bold text-lg text-center mb-4">Rewardify Rules</p>
           <p>
-            Welcome to our Blockchain-based Loyalty and Rewards Program! This
-            page outlines the rules and guidelines for participating in our
-            innovative loyalty program, which leverages blockchain technology to
-            enhance security, transparency, and user engagement.
+            Welcome to Rewardify! This page outlines the rules and guidelines
+            for participating in our innovative loyalty program, which leverages
+            blockchain technology to enhance security, transparency, and user
+            engagement.
           </p>
           <p className="font-bold text-lg my-4">
             Earning Fungible Tokens (Loyalty Points) :
@@ -20,9 +18,8 @@ function Rules() {
           <ol className="list-decimal list-inside">
             <li>
               <span className="font-bold">Purchase Rewards: </span> Earn
-              fungible tokens by making purchases on our E-commerce platform.
-              For every X amount spent, you will earn Y tokens, subject to
-              change based on ongoing promotions.
+              SuperTokens by making purchases . For every X amount spent, you
+              will earn Y tokens, subject to change based on ongoing promotions.
             </li>
             <li>
               <span className="font-bold">Referral Bonuses:</span> Invite
@@ -46,15 +43,15 @@ function Rules() {
             <li>
               <span className="font-bold">Issuance of Tokens:</span> The number
               of tokens issued will depend on the transaction value, referral
-              success, and social media engagement. Brands and sellers can also
-              issue tokens to customers based on their discretion.
+              success, and social media engagement. Partners can also issue
+              tokens to customers based on their discretion.
             </li>
             <li>
               <span className="font-bold">Governance of Treasury:</span>
               The platform will manage the day-to-day governance of the token
               treasury. Decisions regarding token issuance, value adjustments,
               and overall management will be made transparently and in
-              accordance with predefined rules.
+              accordance with our smart contract.
             </li>
           </ol>
           <p className="font-bold text-lg my-4">
@@ -79,9 +76,9 @@ function Rules() {
           <ol className="list-decimal list-inside">
             <li>
               <span className="font-bold">Reward Redemption: </span> Users can
-              redeem their fungible tokens for rewards offered by brands and
-              partners. Each redemption will be recorded on the blockchain to
-              prevent double-spending.
+              redeem SuperTokens for rewards offered by partners. Each
+              redemption will be recorded on the blockchain to prevent
+              double-spending.
             </li>
             <li>
               <span className="font-bold">Tracking and Management: </span> Users
@@ -91,11 +88,9 @@ function Rules() {
             </li>
           </ol>
           <p className="font-bold py-4">Important Note: </p> Participation in
-          our blockchain-based loyalty and rewards program signifies your
-          acceptance of these rules and guidelines. The platform reserves the
-          right to modify the rules as needed, with any changes communicated
-          transparently to all participants. For any queries or concerns related
-          to the rules and guidelines, please contact our customer support.
+          Rewardify signifies your acceptance of these rules and guidelines. The
+          platform reserves the right to modify the rules as needed, with any
+          changes communicated transparently to all participants.
         </div>
       </div>
     </>

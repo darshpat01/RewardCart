@@ -10,6 +10,7 @@ import { useContext } from "react";
 import MyContext from "./Context/context";
 import Rewards from "./Pages/Rewards";
 import Leaderboard from "./Pages/Leaderboard";
+import Stake from "./Pages/Stake";
 
 const router1 = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router1 = createBrowserRouter([
       {
         path: "/leaderboard",
         element: <Leaderboard />,
+      },
+      {
+        path: "/stake",
+        element: <Stake />,
       },
     ],
   },
